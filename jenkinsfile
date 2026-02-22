@@ -30,7 +30,7 @@ pipeline {
 
         stage('Push Frontend Image to Docker Hub') {
             steps {
-                sh "docker push r123mahajan/easycrud1-jenkins:frontend"
+                sh "docker push orionpax77/easycrud1-jenkins:frontend"
             }
         }
 
